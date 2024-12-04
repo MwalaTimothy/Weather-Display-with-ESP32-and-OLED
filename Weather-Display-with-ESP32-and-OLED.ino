@@ -131,10 +131,10 @@ void loop() {
   display.setCursor(40, 20);  // Erste Zeile: Stadtname
   display.println(cityName);  // Dynamischer Stadtnamen
 
-  display.setCursor(40, 30); // Zweite Zeile: Temperatur
+  display.setCursor(40, 35); // Zweite Zeile: Temperatur
   display.println("Temp. (C):");
 
-  display.setCursor(40, 40); // Dritte Zeile: Temperaturwert
+  display.setCursor(40, 50); // Dritte Zeile: Temperaturwert
   display.println(weatherData);  // Wetterdaten hier anzeigen (z.B. Temperatur)
 
   display.display();
